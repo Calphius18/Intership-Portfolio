@@ -1,0 +1,95 @@
+body{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACoCAMAAACPKThEAAAAA1BMVEWusbarQMTwAAAASElEQVR4nO3BMQEAAADCoPVPbQo/oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICXAcTgAAG6EJuyAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbarScroll.navbarOpaque {
+    background-color: rgba(103, 103, 109, 0.9);
+}
+.bgimage {
+    height:100vh;
+    background: url('images/Grad1.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+}
+.bio{
+    color: #2d4545;
+    text-decoration: none;
+}
+
+li {
+    font-family: Algerian;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.brand{
+    color: black;
+    font-family: Algerian;
+    font-size: 35px;
+    text-decoration: overline;
+}
+
+.hero_desc {
+    font-size: 35px;
+    color: rgb(80, 70, 70);
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.imageAboutPage {
+    width: 100%;
+}
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #C8E9E9;
+}
+.servicesText:hover {
+    border: 1px solid #C8E9E9;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+  }
+.connect{ 
+    color: #C8E9E9;
+  }
+  .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #C8E9E9;
+}
+.fab {
+    color: #2d4545;
+}
+/* footer styling */
+#footer {
+    background-image: url( https://media.istockphoto.com/photos/space-background-colorful-fractal-nebula-with-planet-and-asteroid-picture-id1275820470?b=1&k=20&m=1275820470&s=170667a&w=0&h=fSIm5vwp7Lg8vikO2HeuJKHq48b7bBtBpqJ309YmRjg=);
+    border-radius: 20px;
+    text-align: center;
+}
